@@ -14,7 +14,7 @@ const ball = {
 const pad = {
   width: 75,
   height: 10,
-  x: (canvas.width - pad.width) / 2,
+  x: (canvas.width - 75) / 2,
   y: canvas.height - 20,
   speed: 7,
   color: "BLUE",
@@ -30,5 +30,3 @@ context.fillRect(pad.x, pad.y, pad.width, pad.height);
 context.fillStyle = pad.color;
 context.fill();
 context.closePath();
-
-
