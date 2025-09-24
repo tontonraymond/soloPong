@@ -76,7 +76,6 @@ buttons.forEach((button) => {
 
 function loop(){
     context.clearRect(0, 0, canvas.width, canvas.height);
-    moveBall();
     drawPad();
     drawBall();
     requestAnimationFrame(loop);
