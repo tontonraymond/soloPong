@@ -17,7 +17,7 @@ const ball = {
   vy: -1,
   radius: 10,
   speed: 3,
-  color: "BLACK",
+  color: "black",
 };
 
 const pad = {
@@ -26,7 +26,7 @@ const pad = {
   x: (canvas.width - 75) / 2,
   y: canvas.height - 20,
   speed: 10,
-  color: "BLUE",
+  color: "black",
 };
 
 function reset(){

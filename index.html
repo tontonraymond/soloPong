@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/favicon.png" type="image/x-icon">
     <title>Solo Pong</title>
     <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0acb75a9e8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Solo Pong</h1>
@@ -13,8 +16,8 @@
         <button id="startButton">Démarrer le jeu</button>
     </div>
     <div>
-        <button class="button" id="left">Gauche</button>
-        <button class="button" id="right">Droite</button>
+        <button class="buttons" id="left"><span class="fa-solid fa-arrow-left"></span></button>
+        <button class="buttons" id="right"><span class="fa-solid fa-arrow-right"></span></button>
     </div>
     <p>Temps: <span id="time">0</span>s</p>
 </body>
